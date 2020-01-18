@@ -1,19 +1,17 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 
-require 'approvals/version'
+require 'goldeen/version'
 
 Gem::Specification.new do |s|
-  s.name        = "approvals"
-  s.version     = Approvals::VERSION
+  s.name        = "goldeen"
+  s.version     = Goldeen::VERSION
   s.licenses    = ['MIT']
   s.authors     = ["Katrina Owen"]
   s.email       = ["katrina.owen@gmail.com"]
-  s.homepage    = "https://github.com/kytrinyx/approvals"
+  s.homepage    = "https://github.com/aesthetikx/goldeen"
   s.summary     = %q{Approval Tests for Ruby}
   s.description = %q{A library to make it easier to do golden-master style testing in Ruby}
-
-  s.rubyforge_project = "approvals"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
